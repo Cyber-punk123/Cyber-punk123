@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @Cyber-punk123
 - 👀 I’m interested in cybersecurity ethical hacking and digital forensics 
 - 🌱 I’m currently learning data science and praticing AIML
-- 💞️ I’m looking to collaborate on cyebersecurity 
+- 💞️ I’m looking to collaborate on cyebersecurity  and Data Science 
 - 📫 How to reach me mail me
 - 😄 Pronouns: ...😔 am rich 
 - ⚡ Fun fact: ...am intelligent 
