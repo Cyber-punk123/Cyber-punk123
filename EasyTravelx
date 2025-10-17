@@ -118,7 +118,7 @@
 
   <footer class="site-footer">
     <p>© <span id="year"></span> TravelLink — built with ❤️ and neon glow.</p>
-  </footer>
+  </footer> 
 
   <script src="script.js"></script>
 </body>
