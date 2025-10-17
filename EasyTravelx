@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>TravelLink — Cute Cyber Travel App</title>
+  <meta name="description" content="TravelLink — neon cyber travel app prototype: flights, hotels, maps, translator, Qibla & SOS." />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="assets/icons/robot.png" />
+</head>
+<body class="theme-dark">
+  <header class="site-header">
+    <div class="logo">
+      <img src="assets/icons/robot.png" alt="robot" class="mascot" />
+      <div>
+        <h1>TravelLink</h1>
+        <p class="tag">Your cute cyber travel companion</p>
+      </div>
+    </div>
+    <nav class="top-nav">
+      <button id="langBtn" class="ghost">EN</button>
+      <button id="themeBtn" class="ghost">Theme</button>
+      <a class="cta" href="#download">Get Prototype</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-left">
+        <h2>Plan. Book. Travel. Stay safe.</h2>
+        <p class="lead">Flights, hotels, food, translator, prayer times, Qibla compass, SOS and live flight radar — all in a cute neon cyber UI.</p>
+        <div class="hero-cta">
+          <a class="btn primary" href="#features">Explore features</a>
+          <a class="btn ghost" href="#screenshots">Screenshots</a>
+        </div>
+      </div>
+      <div class="hero-right">
+        <div class="device-mock">
+          <img src="assets/screens/mockup-phone.png" alt="mockup" />
+          <div class="neon-glow"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="features grid">
+      <article class="feature-card">
+        <img src="assets/icons/plane.png" alt="" />
+        <h3>Flight offers & Radar</h3>
+        <p>Animated flight radar, live status (replace with AviationStack), booking flow.</p>
+      </article>
+
+      <article class="feature-card">
+        <img src="assets/icons/directions.png" alt="" />
+        <h3>Transport & Maps</h3>
+        <p>Google Maps integration, book taxis and shuttles with filters.</p>
+      </article>
+
+      <article class="feature-card">
+        <img src="assets/icons/restaurant.png" alt="" />
+        <h3>Restaurants & Orders</h3>
+        <p>Search, filter, order & view history with quick recommendations.</p>
+      </article>
+
+      <article class="feature-card">
+        <img src="assets/icons/hotel.png" alt="" />
+        <h3>Hotels</h3>
+        <p>Map + ratings + booking flow with availability cards and animations.</p>
+      </article>
+
+      <article class="feature-card">
+        <img src="assets/icons/translate.png" alt="" />
+        <h3>Translator (text & voice)</h3>
+        <p>LibreTranslate stub + speech-to-text & TTS integration for conversations.</p>
+      </article>
+
+      <article class="feature-card">
+        <img src="assets/icons/sos.png" alt="" />
+        <h3>Safety & SOS</h3>
+        <p>Large SOS button, complaint form, safety tips and notifications.</p>
+      </article>
+
+      <article class="feature-card">
+        <img src="assets/icons/mosque.png" alt="" />
+        <h3>Prayer times & Qibla</h3>
+        <p>Aladhan stub for prayer times and a spinning compass for Qibla direction.</p>
+      </article>
+
+      <article class="feature-card">
+        <img src="assets/icons/settings.png" alt="" />
+        <h3>Theme & Language</h3>
+        <p>Dark/light theme toggle and multi-language support via intl stubs.</p>
+      </article>
+    </section>
+
+    <section id="screenshots" class="screenshots">
+      <h2>Screenshots</h2>
+      <div class="shots">
+        <img src="assets/screens/s1.png" alt="screen1" />
+        <img src="assets/screens/s2.png" alt="screen2" />
+        <img src="assets/screens/s3.png" alt="screen3" />
+      </div>
+      <p class="muted">Replace these images with your Flutter web build screenshots (web/build/...).</p>
+    </section>
+
+    <section id="download" class="download">
+      <h2>Get the Prototype</h2>
+      <p>To run locally: clone the repo, place Flutter web build files into <code>/docs</code> (or use GitHub Actions to publish automatically).</p>
+      <div class="download-actions">
+        <a class="btn primary" href="https://github.com/YOUR_USERNAME/YOUR_REPO" target="_blank">View on GitHub</a>
+        <a class="btn ghost" download href="travel-link-prototype.zip">Download ZIP</a>
+      </div>
+    </section>
+
+    <section class="footer-cta">
+      <p>Want CI deploy to GitHub Pages? Add the workflow in <code>.github/workflows/deploy.yml</code> (we provide a template in the repo).</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> TravelLink — built with ❤️ and neon glow.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+				</html>=#
